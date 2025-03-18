@@ -1,0 +1,752 @@
+[
+    {
+        "id": 1,
+        "question": "¿Qué es un Sprint en Scrum?",
+        "code": "SPRINT_DEFINITION",
+        "answers": [
+            "Un conjunto de tareas asignadas a un desarrollador",
+            "Un período de tiempo en el que el equipo trabaja en un incremento de producto",
+            "Una metodología alternativa a Scrum",
+            "Una fase de prueba del software"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Un Sprint es un período de tiempo fijo (generalmente de 2 a 4 semanas) en el que un equipo Scrum trabaja en la entrega de un incremento de producto potencialmente entregable."
+    },
+    {
+        "id": 2,
+        "question": "¿Quién es responsable de gestionar el Product Backlog?",
+        "code": "PRODUCT_BACKLOG_OWNER",
+        "answers": [
+            "El Scrum Master",
+            "El equipo de desarrollo",
+            "El Product Owner",
+            "El cliente"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Product Owner es el responsable de gestionar y priorizar el Product Backlog, asegurando que contenga elementos valiosos y bien definidos para el equipo."
+    },
+    {
+        "id": 3,
+        "question": "¿Qué artefacto de Scrum contiene las tareas planificadas para un Sprint?",
+        "code": "SPRINT_BACKLOG",
+        "answers": [
+            "El Product Backlog",
+            "El Sprint Backlog",
+            "La Definición de Hecho",
+            "El Release Plan"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Sprint Backlog es el conjunto de elementos del Product Backlog seleccionados para trabajarse durante un Sprint, junto con un plan para entregarlos."
+    },
+    {
+        "id": 4,
+        "question": "¿Qué evento en Scrum permite ajustar el plan de trabajo diario?",
+        "code": "DAILY_SCRUM",
+        "answers": [
+            "Sprint Review",
+            "Sprint Retrospective",
+            "Daily Scrum",
+            "Sprint Planning"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Daily Scrum es una reunión diaria en la que el equipo sincroniza su progreso y ajusta su plan de trabajo para el día siguiente si es necesario."
+    },
+    {
+        "id": 5,
+        "question": "¿Qué es un tablero Kanban?",
+        "code": "KANBAN_BOARD",
+        "answers": [
+            "Una herramienta visual que gestiona el flujo de trabajo",
+            "Un documento donde se registran los cambios de un proyecto",
+            "Una estrategia para eliminar bloqueos en Scrum",
+            "Un método de priorización de tareas"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El tablero Kanban es una herramienta visual que muestra el flujo de trabajo de un equipo, permitiendo gestionar tareas en diferentes estados como 'To Do', 'In Progress' y 'Done'."
+    },
+    {
+        "id": 6,
+        "question": "¿Cuál es el principal objetivo del Sprint Planning?",
+        "code": "SPRINT_PLANNING",
+        "answers": [
+            "Evaluar la velocidad del equipo",
+            "Planificar el trabajo del próximo Sprint",
+            "Revisar el Sprint anterior",
+            "Definir nuevas historias de usuario"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Sprint Planning es la reunión en la que el equipo de desarrollo, junto con el Product Owner y Scrum Master, selecciona y planifica el trabajo del próximo Sprint."
+    },
+    {
+        "id": 7,
+        "question": "¿Qué se hace en la Sprint Retrospective?",
+        "code": "SPRINT_RETROSPECTIVE",
+        "answers": [
+            "Se revisa el Product Backlog",
+            "Se define la velocidad del equipo",
+            "Se identifican mejoras en la forma de trabajo",
+            "Se presentan los avances a los stakeholders"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "La Sprint Retrospective es una reunión en la que el equipo reflexiona sobre el Sprint anterior e identifica oportunidades de mejora para futuros Sprints."
+    },
+    {
+        "id": 8,
+        "question": "¿Cuál de estos principios se aplica en Kanban?",
+        "code": "KANBAN_PRINCIPLES",
+        "answers": [
+            "Iteraciones fijas",
+            "Limitación del trabajo en progreso (WIP)",
+            "Roles específicos como Scrum Master",
+            "Sprint Planning obligatorio"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Kanban se basa en la limitación del trabajo en progreso (WIP), lo que ayuda a mejorar el flujo de trabajo y evitar la sobrecarga del equipo."
+    },
+    {
+        "id": 9,
+        "question": "¿Qué mide el 'Lead Time' en Kanban?",
+        "code": "KANBAN_LEAD_TIME",
+        "answers": [
+            "El tiempo que toma una tarea en completarse desde su inicio",
+            "El número de tareas en progreso",
+            "El tiempo que tarda un equipo en planificar una iteración",
+            "La cantidad de tareas completadas en un Sprint"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Lead Time mide el tiempo total que una tarea tarda en completarse desde que se inicia hasta que se finaliza, proporcionando información sobre la eficiencia del flujo de trabajo."
+    },
+    {
+        "id": 10,
+        "question": "¿Qué técnica se usa en Scrum para estimar tareas?",
+        "code": "SCRUM_ESTIMATION",
+        "answers": [
+            "Diagrama de Gantt",
+            "Planning Poker",
+            "Diagrama de flujo acumulado",
+            "Lead Time"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Planning Poker es una técnica utilizada en Scrum donde los miembros del equipo estiman el esfuerzo de cada tarea utilizando cartas numeradas, promoviendo consenso y discusión."
+    },
+    {
+        "id": 11,
+        "question": "¿Cuál es la diferencia clave entre Scrum y Kanban?",
+        "code": "SCRUM_VS_KANBAN",
+        "answers": [
+            "Scrum tiene roles y eventos definidos, Kanban es más flexible",
+            "Kanban usa Sprints, Scrum no",
+            "Scrum permite múltiples tareas simultáneamente, Kanban no",
+            "Kanban tiene un Product Owner, Scrum no"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Scrum es un marco con roles, eventos y reglas específicas, mientras que Kanban es más flexible y se enfoca en el flujo continuo del trabajo."
+    },
+    {
+        "id": 12,
+        "question": "¿Qué rol en Scrum es responsable de eliminar impedimentos?",
+        "code": "SCRUM_MASTER_ROLE",
+        "answers": [
+            "El Product Owner",
+            "El Scrum Master",
+            "El equipo de desarrollo",
+            "El Project Manager"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Scrum Master es el responsable de eliminar los impedimentos que afectan al equipo y de asegurarse de que Scrum se implemente correctamente."
+    },
+    {
+        "id": 13,
+        "question": "¿Qué representa la gráfica Burndown Chart en Scrum?",
+        "code": "BURNDOWN_CHART",
+        "answers": [
+            "El progreso del equipo en la resolución de impedimentos",
+            "La cantidad de trabajo restante en el Sprint",
+            "El desempeño individual de cada desarrollador",
+            "El número de bugs encontrados en el Sprint"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "La gráfica Burndown muestra la cantidad de trabajo pendiente a lo largo del Sprint, ayudando al equipo a visualizar el progreso."
+    },
+    {
+        "id": 14,
+        "question": "¿Qué significa WIP en Kanban?",
+        "code": "KANBAN_WIP",
+        "answers": [
+            "Work in Process",
+            "Work Iteration Planning",
+            "Workflow Integration Pattern",
+            "Weekly Iteration Progress"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "WIP significa 'Work In Progress' y se refiere al límite de trabajo en proceso para evitar sobrecarga y mejorar el flujo en Kanban."
+    },
+    {
+        "id": 15,
+        "question": "¿Cuál es la duración recomendada para un Sprint?",
+        "code": "SPRINT_DURATION",
+        "answers": [
+            "1 día",
+            "2 a 4 semanas",
+            "6 semanas",
+            "Depende del equipo"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Un Sprint en Scrum debe durar entre 2 y 4 semanas, asegurando entregas frecuentes de valor sin afectar la flexibilidad del equipo."
+    },
+    {
+        "id": 16,
+        "question": "¿Qué es el Definition of Done (DoD) en Scrum?",
+        "code": "DEFINITION_OF_DONE",
+        "answers": [
+            "Una lista de criterios que indican que un ítem del backlog está completamente terminado",
+            "Un documento donde se definen las reglas del equipo",
+            "El contrato del equipo con el cliente",
+            "La revisión de código realizada por el Scrum Master"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Definition of Done (DoD) es un conjunto de criterios que indican cuándo un ítem del backlog está completamente finalizado y listo para entrega."
+    },
+    {
+        "id": 17,
+        "question": "¿Cómo se priorizan los elementos en el Product Backlog?",
+        "code": "BACKLOG_PRIORITIZATION",
+        "answers": [
+            "Por el orden en que se agregaron",
+            "Por la decisión del equipo de desarrollo",
+            "Por el valor que aportan al negocio y la urgencia",
+            "De manera aleatoria en cada Sprint"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Los elementos del Product Backlog se priorizan según su valor de negocio y urgencia, lo que permite maximizar el impacto del producto."
+    },
+    {
+        "id": 18,
+        "question": "¿Qué pasa si un equipo no completa todas las tareas de un Sprint?",
+        "code": "INCOMPLETE_SPRINT_WORK",
+        "answers": [
+            "Se eliminan las tareas no terminadas",
+            "El equipo debe trabajar horas extras para terminarlas",
+            "Las tareas no completadas vuelven al Product Backlog",
+            "El Scrum Master decide qué hacer con ellas"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Si una tarea no se completa en un Sprint, regresa al Product Backlog para ser priorizada en función de su importancia."
+    },
+    {
+        "id": 19,
+        "question": "¿Qué es el Refinement del Backlog en Scrum?",
+        "code": "BACKLOG_REFINEMENT",
+        "answers": [
+            "Una reunión para mejorar la calidad y claridad de los elementos del backlog",
+            "El proceso de eliminar tareas innecesarias del backlog",
+            "El tiempo dedicado a programar nuevas historias de usuario",
+            "Un evento donde el Scrum Master asigna tareas"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Refinement del Backlog es una actividad continua en la que el equipo refina y detalla los elementos del backlog para facilitar su planificación y desarrollo."
+    },
+    {
+        "id": 20,
+        "question": "¿Cómo se gestiona el cambio de requerimientos en Scrum?",
+        "code": "CHANGE_MANAGEMENT_SCRUM",
+        "answers": [
+            "No se permiten cambios durante el Sprint",
+            "Se rechazan los cambios hasta la siguiente fase del proyecto",
+            "Los cambios se evalúan y pueden ajustarse en el siguiente Sprint",
+            "Solo el Scrum Master puede aceptar cambios"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "En Scrum, los cambios de requerimientos se evalúan y pueden introducirse en el siguiente Sprint para mantener la flexibilidad y la entrega de valor."
+    },
+    {
+        "id": 21,
+        "question": "¿Qué es un MVP (Minimum Viable Product) en Scrum?",
+        "code": "MVP_SCRUM",
+        "answers": [
+            "Un producto completamente terminado",
+            "Un prototipo sin funcionalidad",
+            "La versión más simple de un producto con suficiente valor para los usuarios",
+            "Un documento con los requisitos mínimos del producto"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Un MVP es la versión más simple de un producto que ofrece valor a los usuarios y permite obtener retroalimentación rápida."
+    },
+    {
+        "id": 22,
+        "question": "¿Cuál es el objetivo del Sprint Review?",
+        "code": "SPRINT_REVIEW",
+        "answers": [
+            "Evaluar el desempeño individual del equipo",
+            "Planificar el siguiente Sprint",
+            "Revisar el trabajo completado y recibir retroalimentación de los stakeholders",
+            "Actualizar el backlog del producto"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Sprint Review permite al equipo mostrar el incremento de producto desarrollado y recibir retroalimentación."
+    },
+    {
+        "id": 23,
+        "question": "¿Qué diferencia hay entre un Epic y un User Story?",
+        "code": "EPIC_VS_USER_STORY",
+        "answers": [
+            "Un Epic es más grande y se compone de múltiples User Stories",
+            "Un User Story agrupa varios Epics",
+            "No hay diferencia, son términos intercambiables",
+            "Un Epic es una tarea específica dentro de un Sprint"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Un Epic es una funcionalidad grande que se desglosa en varias User Stories más pequeñas y manejables."
+    },
+    {
+        "id": 24,
+        "question": "¿Cuál es el rol del Scrum Master en el equipo?",
+        "code": "SCRUM_MASTER_ROLE",
+        "answers": [
+            "Definir los objetivos del Sprint",
+            "Asignar tareas a los desarrolladores",
+            "Facilitar la aplicación de Scrum y eliminar impedimentos",
+            "Supervisar el desempeño del equipo"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Scrum Master es un facilitador que ayuda al equipo a seguir las prácticas de Scrum y elimina obstáculos."
+    },
+    {
+        "id": 25,
+        "question": "¿Por qué Kanban no tiene iteraciones fijas?",
+        "code": "KANBAN_ITERATIONS",
+        "answers": [
+            "Porque prioriza el flujo continuo de trabajo",
+            "Porque sigue un calendario estricto",
+            "Porque cada iteración debe durar exactamente 4 semanas",
+            "Porque los cambios no están permitidos en Kanban"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Kanban se basa en la mejora continua y la entrega fluida del trabajo sin iteraciones fijas."
+    },
+    {
+        "id": 26,
+        "question": "¿Cómo se maneja el trabajo en progreso en Kanban?",
+        "code": "KANBAN_WIP_MANAGEMENT",
+        "answers": [
+            "No hay límite en la cantidad de trabajo en progreso",
+            "Se asignan tareas de forma aleatoria",
+            "Se establecen límites de WIP (Work In Progress) para mejorar el flujo de trabajo",
+            "Se eliminan tareas si hay muchas en progreso"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Kanban limita el trabajo en progreso (WIP) para evitar la sobrecarga y mejorar la eficiencia del equipo."
+    },
+    {
+        "id": 27,
+        "question": "¿Qué significa el término 'Pull System' en Kanban?",
+        "code": "KANBAN_PULL_SYSTEM",
+        "answers": [
+            "Un sistema donde las tareas se asignan automáticamente",
+            "Un método en el que el equipo elige las tareas cuando hay capacidad disponible",
+            "Un sistema en el que cada miembro recibe tareas sin opción de rechazarlas",
+            "Un proceso donde el cliente selecciona qué tareas se deben hacer"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El 'Pull System' en Kanban significa que el equipo elige nuevas tareas cuando tiene capacidad disponible, en lugar de recibir asignaciones impuestas."
+    },
+    {
+        "id": 28,
+        "question": "¿Qué hacer si el equipo no logra terminar un Sprint?",
+        "code": "INCOMPLETE_SPRINT",
+        "answers": [
+            "Extender el Sprint hasta terminar todas las tareas",
+            "Despedir a los miembros del equipo que no cumplieron",
+            "Mover las tareas incompletas al Product Backlog para ser replanificadas",
+            "Repetir el mismo Sprint sin cambios"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Las tareas no terminadas vuelven al Product Backlog para su reevaluación y posible replanificación en futuros Sprints."
+    },
+    {
+        "id": 29,
+        "question": "¿Qué representa la gráfica Cumulative Flow Diagram (CFD) en Kanban?",
+        "code": "KANBAN_CFD",
+        "answers": [
+            "La cantidad de trabajo en cada estado del flujo de trabajo",
+            "El desempeño individual de cada miembro del equipo",
+            "El número de impedimentos resueltos en un Sprint",
+            "La cantidad de cambios realizados en el backlog"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Cumulative Flow Diagram (CFD) muestra la acumulación de trabajo en diferentes estados del proceso, ayudando a identificar cuellos de botella."
+    },
+    {
+        "id": 30,
+        "question": "¿Qué significa la métrica Cycle Time en Kanban?",
+        "code": "KANBAN_CYCLE_TIME",
+        "answers": [
+            "El tiempo que toma un elemento en completarse desde su inicio hasta su finalización",
+            "El tiempo que un equipo tarda en iniciar un nuevo Sprint",
+            "El número de tareas completadas en un día",
+            "El tiempo dedicado a las reuniones diarias"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Cycle Time mide el tiempo total que tarda una tarea desde que comienza hasta que se finaliza, ayudando a evaluar la eficiencia del equipo."
+    },
+    {
+        "id": 31,
+        "question": "¿Cuál es el beneficio de usar métricas en Kanban?",
+        "code": "KANBAN_METRICS",
+        "answers": [
+            "Reducen la necesidad de reuniones",
+            "Aumentan la cantidad de tareas completadas",
+            "Permiten identificar cuellos de botella y mejorar el flujo de trabajo",
+            "Evitan la necesidad de estimaciones en los equipos"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Las métricas en Kanban ayudan a identificar problemas en el flujo de trabajo y mejorar la eficiencia del equipo."
+    },
+    {
+        "id": 32,
+        "question": "¿Qué hacer si un Product Owner cambia constantemente el backlog?",
+        "code": "PO_CHANGES_BACKLOG",
+        "answers": [
+            "Aceptar todos los cambios sin cuestionarlos",
+            "Reiniciar el Sprint cada vez que haya un cambio",
+            "Limitar los cambios al final de cada Sprint",
+            "Educar al Product Owner sobre la importancia de la estabilidad en el Sprint"
+        ],
+        "correctAnswer": 3,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Es importante explicar al Product Owner que los cambios constantes pueden afectar la estabilidad y efectividad del equipo."
+    },
+    {
+        "id": 33,
+        "question": "¿Qué significa Timeboxing en Scrum?",
+        "code": "TIMEBOXING_SCRUM",
+        "answers": [
+            "Asignar un tiempo fijo a cada actividad",
+            "Reducir el tiempo dedicado a reuniones",
+            "Evitar retrasos en las entregas",
+            "Asignar más tiempo a tareas complejas"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Timeboxing significa establecer un tiempo fijo para actividades como reuniones y Sprints para mejorar la gestión del tiempo."
+    },
+    {
+        "id": 34,
+        "question": "¿Qué diferencia hay entre el Sprint Backlog y el Product Backlog?",
+        "code": "SPRINT_VS_PRODUCT_BACKLOG",
+        "answers": [
+            "No hay diferencia, son lo mismo",
+            "El Sprint Backlog contiene las tareas seleccionadas para un Sprint, mientras que el Product Backlog contiene todas las funcionalidades por desarrollar",
+            "El Product Backlog es propiedad del Scrum Master",
+            "El Sprint Backlog no puede modificarse durante el Sprint"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Sprint Backlog es un subconjunto del Product Backlog, con los elementos seleccionados para trabajarse en el Sprint."
+    },
+    {
+        "id": 35,
+        "question": "¿Cómo se mide la velocidad del equipo en Scrum?",
+        "code": "VELOCITY_SCRUM",
+        "answers": [
+            "Con la cantidad de horas trabajadas",
+            "Contando el número de tareas completadas",
+            "Sumando los puntos de historia completados en cada Sprint",
+            "Midiendo el tiempo de entrega de cada tarea"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "La velocidad en Scrum se mide en puntos de historia completados por Sprint, permitiendo estimaciones más precisas."
+    },
+    {
+        "id": 36,
+        "question": "¿Cuál es la relación entre Scrum y Agile?",
+        "code": "SCRUM_VS_AGILE",
+        "answers": [
+            "Scrum es una metodología completamente diferente a Agile",
+            "Agile es un subconjunto de Scrum",
+            "Scrum es un marco de trabajo dentro de Agile",
+            "Agile se basa en Kanban, no en Scrum"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Scrum es un framework dentro del enfoque Agile que ayuda a gestionar el trabajo en iteraciones."
+    },
+    {
+        "id": 37,
+        "question": "¿Cómo se manejan los bloqueos en Scrum?",
+        "code": "SCRUM_BLOCKERS",
+        "answers": [
+            "Se ignoran hasta que el equipo los resuelva",
+            "El Scrum Master ayuda a eliminarlos",
+            "Se discuten solo en la retrospectiva",
+            "El Product Owner los resuelve directamente"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Scrum Master es responsable de eliminar impedimentos que dificulten el progreso del equipo."
+    },
+    {
+        "id": 38,
+        "question": "¿Cuándo es recomendable usar Kanban en vez de Scrum?",
+        "code": "KANBAN_VS_SCRUM",
+        "answers": [
+            "Cuando el trabajo es altamente predecible",
+            "Cuando hay un flujo de trabajo continuo sin iteraciones fijas",
+            "Cuando se necesita una planificación detallada por Sprint",
+            "Cuando el equipo no quiere realizar reuniones"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Kanban es ideal para flujos de trabajo continuos, donde no es necesario dividir el trabajo en iteraciones fijas."
+    },
+    {
+        "id": 39,
+        "question": "¿Qué ocurre si un equipo Scrum tiene dependencias externas?",
+        "code": "SCRUM_DEPENDENCIES",
+        "answers": [
+            "El equipo debe esperar a que se resuelvan antes de avanzar",
+            "Se eliminan todas las dependencias antes de iniciar el Sprint",
+            "El equipo trabaja en lo que pueda mientras se resuelven las dependencias",
+            "El Scrum Master debe negociar con los responsables de las dependencias para minimizar bloqueos"
+        ],
+        "correctAnswer": 3,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Scrum Master juega un papel clave en gestionar dependencias externas para minimizar su impacto en el equipo."
+    },
+    {
+        "id": 40,
+        "question": "¿Cuál es el objetivo del Daily Scrum?",
+        "code": "DAILY_SCRUM",
+        "answers": [
+            "Revisar el progreso del Sprint y coordinar el trabajo diario",
+            "Discutir problemas personales del equipo",
+            "Presentar informes detallados de cada tarea",
+            "Definir la estrategia de producto a largo plazo"
+        ],
+        "correctAnswer": 0,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Daily Scrum permite que el equipo sincronice su trabajo y detecte posibles impedimentos en el Sprint."
+    },
+    {
+        "id": 41,
+        "question": "¿Por qué se recomienda limitar el WIP en Kanban?",
+        "code": "KANBAN_WIP_LIMIT",
+        "answers": [
+            "Para aumentar la carga de trabajo del equipo",
+            "Para evitar que se inicien nuevas tareas",
+            "Para reducir el tiempo de entrega y mejorar el flujo",
+            "Para evitar que el equipo colabore en varias tareas al mismo tiempo"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Limitar el WIP ayuda a reducir el tiempo de entrega y mejorar el flujo de trabajo evitando la sobrecarga del equipo."
+    },
+    {
+        "id": 42,
+        "question": "¿Cómo se calcula la capacidad de un equipo en Scrum?",
+        "code": "SCRUM_TEAM_CAPACITY",
+        "answers": [
+            "Sumando la cantidad de tareas completadas en el Sprint anterior",
+            "Multiplicando el número de desarrolladores por la cantidad de horas trabajadas",
+            "Estimando los puntos de historia que el equipo puede completar en un Sprint",
+            "Dividiendo el total de horas disponibles entre el número de historias de usuario"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "La capacidad de un equipo en Scrum se estima con base en los puntos de historia completados en Sprints anteriores."
+    },
+    {
+        "id": 43,
+        "question": "¿Qué hacer si un equipo de desarrollo sobreestima las tareas?",
+        "code": "OVER_ESTIMATION_SCRUM",
+        "answers": [
+            "Reducir el tiempo asignado a cada tarea",
+            "Asignar más tareas para equilibrar la carga",
+            "Revisar las estimaciones y ajustar los criterios de evaluación",
+            "Dejar que el equipo se ajuste solo en los siguientes Sprints"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Si un equipo sobreestima las tareas, se recomienda revisar los criterios de estimación para mejorar la precisión."
+    },
+    {
+        "id": 44,
+        "question": "¿Cómo afecta un equipo multifuncional en Scrum?",
+        "code": "MULTIFUNCTIONAL_TEAM_SCRUM",
+        "answers": [
+            "Hace que los desarrolladores se especialicen en tareas específicas",
+            "Facilita que todos los miembros del equipo colaboren en distintas áreas",
+            "Aumenta la carga de trabajo de cada integrante",
+            "Reduce la necesidad de comunicación entre los miembros"
+        ],
+        "correctAnswer": 3,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Un equipo multifuncional facilita la colaboración y evita dependencias al permitir que todos puedan trabajar en distintas áreas."
+    },
+    {
+        "id": 45,
+        "question": "¿Qué hacer si una tarea no avanza en el Kanban Board?",
+        "code": "KANBAN_STUCK_TASK",
+        "answers": [
+            "Esperar a que el responsable la complete",
+            "Eliminarla del tablero para evitar retrasos",
+            "Identificar la causa del bloqueo y tomar acciones",
+            "Asignarla a otro miembro del equipo sin consultar"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Es importante analizar las causas de un bloqueo en Kanban y tomar acciones para resolverlo sin interrumpir el flujo de trabajo."
+    },
+    {
+        "id": 46,
+        "question": "¿Cómo manejar tareas urgentes en un equipo Scrum?",
+        "code": "URGENT_TASKS_SCRUM",
+        "answers": [
+            "Agregarlas al Sprint en curso sin afectar la planificación",
+            "Esperar hasta el siguiente Sprint para incluirlas",
+            "Analizar su prioridad y discutirlas con el Product Owner",
+            "Asignarlas fuera del marco de Scrum para no afectar el equipo"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Las tareas urgentes deben ser priorizadas y discutidas con el Product Owner para evaluar su impacto en el Sprint."
+    },
+    {
+        "id": 47,
+        "question": "¿Qué significa Kaizen en Kanban?",
+        "code": "KAIZEN_KANBAN",
+        "answers": [
+            "Un principio que prohíbe cambios en el flujo de trabajo",
+            "Una métrica para medir el rendimiento del equipo",
+            "Un enfoque de mejora continua en procesos",
+            "Una técnica para reducir el número de reuniones innecesarias"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Kaizen es un enfoque de mejora continua que se aplica en Kanban para optimizar procesos y eliminar desperdicios."
+    },
+    {
+        "id": 48,
+        "question": "¿Cuál es la relación entre Kanban y Lean?",
+        "code": "KANBAN_LEAN",
+        "answers": [
+            "Kanban es una metodología independiente de Lean",
+            "Kanban es un subconjunto de Lean enfocado en la eficiencia del flujo de trabajo",
+            "Lean se basa en Scrum y no en Kanban",
+            "Kanban solo se aplica en procesos de manufactura"
+        ],
+        "correctAnswer": 1,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Kanban forma parte del enfoque Lean y ayuda a optimizar el flujo de trabajo eliminando desperdicios y mejorando la eficiencia."
+    },
+    {
+        "id": 49,
+        "question": "¿Qué hacer si un equipo Scrum tiene muchas reuniones innecesarias?",
+        "code": "SCRUM_MEETINGS",
+        "answers": [
+            "Eliminar todas las reuniones del Sprint",
+            "Reducir las reuniones a solo una por semana",
+            "Revisar la estructura de las reuniones y optimizar su duración",
+            "Dejar que cada miembro decida si quiere asistir o no"
+        ],
+        "correctAnswer": 3,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "Para evitar reuniones innecesarias, se recomienda optimizar su estructura y duración sin perder el enfoque en la colaboración."
+    },
+    {
+        "id": 50,
+        "question": "¿Cuál es el beneficio de usar métricas como el Cycle Time en Kanban?",
+        "code": "CYCLE_TIME_KANBAN",
+        "answers": [
+            "Reducen el número de tareas en curso",
+            "Aumentan la velocidad del equipo",
+            "Permiten medir el tiempo de entrega y optimizar el flujo",
+            "Eliminan la necesidad de estimaciones en los equipos"
+        ],
+        "correctAnswer": 2,
+        "userSelectedAnswer": null,
+        "isCorrectUserAnswer": null,
+        "helpText": "El Cycle Time mide el tiempo desde que una tarea comienza hasta que se completa, ayudando a optimizar el flujo de trabajo."
+    }
+]
