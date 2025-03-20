@@ -1,4 +1,90 @@
-# React + TypeScript + Vite
+<div id="top"></div>
+
+[![GitHub contributors](https://img.shields.io/github/contributors/nelsonacos/scrum-battle.svg?style=for-the-badge)](https://github.com/nelsonacos/scrum-battle/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/nelsonacos/scrum-battle?style=for-the-badge)](https://github.com/nelsonacos/scrum-battle/issues)
+[![GitHub forks](https://img.shields.io/github/forks/nelsonacos/scrum-battle?style=for-the-badge)](https://github.com/nelsonacos/kanban-board/network)
+[![GitHub stars](https://img.shields.io/github/stars/nelsonacos/scrum-battled?style=for-the-badge)](https://github.com/nelsonacos/scrum-battle/stargazers)
+[![GitHub license](https://img.shields.io/github/license/nelsonacos/scrum-battle?style=for-the-badge)](https://github.com/nelsonacos/scrum-battle/blob/main/LICENSE)
+[![Linkedin url](https://img.shields.io/badge/-LinkedIn-black.svg?color=%23555555&logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/nelchar/)
+
+<br />
+<div align="center">
+
+  <h3 align="center">Scrum Battle</h3>
+
+  <p align="center">
+    <a href="#top"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="#">View Demo</a>
+    ·
+    <a href="https://github.com/nelsonacos/scrum-battle/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/nelsonacos/scrum-battle/issues">Request Feature</a>
+  </p>
+</div>
+
+<p align="center">
+    <a href="https://github.com/nelsonacos/scrum-battle">
+        <img src="https://img.shields.io/badge/react-black?style=for-the-badge&logo=react" alt="React">
+    </a>
+    <a href="https://github.com/nelsonacos/scrum-battle">
+        <img src="https://img.shields.io/badge/typescript-black?style=for-the-badge&logo=typescript" alt="Typescript">
+    </a>
+    <a href="https://github.com/nelsonacos/scrum-battle">
+        <img src="https://img.shields.io/badge/Vite-black?style=for-the-badge&logo=Vite" alt="Vite">
+    </a>
+</p>
+
+## About The Project
+
+### Prerequisites
+
+[node install docs](https://nodejs.org/es/download/package-manager/)
+
+```sh
+sudo apt install nodejs
+```
+
+[npm](https://www.npmjs.com/package/npm-install)
+
+```sh
+npm install npm@latest -g
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Getting Started
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/nelsonacos/scrum-battle.git
+```
+
+2. Open command line and go to project folder
+
+```bash
+cd scrum-battle
+```
+
+3. Install NPM packages
+
+```sh
+npm install
+```
+
+4. Then open another command line and run the frontend
+
+```js
+npm run dev
+```
+
+Open [http://localhost:5173/](http://localhost:5173/) with your browser to see the result.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -7,7 +93,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+#### Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
@@ -52,3 +138,4 @@ export default tseslint.config({
   },
 })
 ```
+<p align="right">(<a href="#top">back to top</a>)</p>
