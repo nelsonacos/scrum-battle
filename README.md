@@ -56,6 +56,28 @@ npm install npm@latest -g
 
 ### Getting Started
 
+### Starting the Project with Docker Compose
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/nelsonacos/scrum-battle.git
+```
+
+2. Open command line and go to project folder 
+
+```bash
+cd scrum-battle
+```
+3. Run The Command:
+
+```sh
+docker-compose up --build
+```
+Open http://localhost:3000/ with your browser to see the result.
+
+### Starting the Project without Docker Compose
+
 1. Clone the repo
 
 ```sh
@@ -80,7 +102,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173/](http://localhost:5173/) with your browser to see the result.
+Open [http://localhost:3000/](http://localhost:5173/) with your browser to see the result.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
